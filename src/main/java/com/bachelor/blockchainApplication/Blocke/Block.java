@@ -88,7 +88,7 @@ public Block() {
 		this.dataFile1 = dataFile1;
 		this.dataFile2 = dataFile2;
 		this.jsonObject = jsonObject;
-		this.blockId = genID.getAndIncrement(); //for the auto generate a ID for a new block.
+		this.blockId = genID.getAndIncrement(); //for the auto generate a ID for a new block 
 
 	}
 	     //to calculate the Hashvalue of each block
@@ -104,7 +104,7 @@ public Block() {
 		return calculatedhash; 
 	} 
 	
-//to return a block using an Id
+//Method to return a block using an Id 
 	@SuppressWarnings("unchecked")
 	public JSONObject toJsonObject() {
 		JSONObject myObject = new JSONObject();
